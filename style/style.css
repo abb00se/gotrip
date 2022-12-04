@@ -1,0 +1,293 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ISB';
+ 
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+  
+
+}
+.header__nav{
+    padding: 37px 0;
+    background: #3E8989;
+  
+    
+}
+.header-nav-title{
+    display: flex;
+    gap: 30px;
+
+}
+  
+
+
+.header-furum-text{
+    background: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+    padding: 9px 0 9px 20px;
+    border: none;
+    outline: none;
+
+
+}
+
+.header-nav-link{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'RM';
+    
+}
+
+.header-form{
+padding-right: 165px;
+display: flex;justify-content: center;
+align-items: center;
+
+
+}
+.headr__nav__content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.header-furum-text::placeholder{
+    font-size: 16px;
+    line-height: 19px;
+    font-family:'RR';
+    color: #898989;
+}
+.button{
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: 'RR';
+    padding: 9px 14px;
+    background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+
+}
+.header_content{
+    background: url(../images/picbig.jpg) no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.zagolovok{
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 95px;
+    color: #FFFFFF;
+    font-family: 'RSB';
+    padding-bottom: 20px;
+
+}
+.paragraf{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    font-family: 'RM';
+    padding-bottom: 50px;
+
+
+}
+.link_header{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: 'ISB';
+    padding: 14px 78px 14px 77px;
+    background: #B4436C;
+    border-radius: 30px;
+    transition: 400ms
+
+   
+}
+.link_header:hover{
+    background: #FFFFFF;
+    color: #B4436C;
+}
+    
+
+
+.header_abbos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+.zagolovok_2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'RSB';
+    text-align: center;
+    margin-bottom: 50px;
+   
+
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family: 'RR';
+    max-width: 545px
+
+
+
+}
+.main_content{
+   padding-top: 80px;
+  
+   
+}
+.text_right{
+    display: flex;
+    flex-direction: column;
+    height: 359px;
+}
+.main_flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.paragraph:first-of-type{
+    margin: 59px 0 20px 0;
+    
+}
+
+.main_clothes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.main_clothes_img, .asd{
+    background: #EFEFEF;
+    max-width: 100%;
+    width: 263px;
+    min-height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.zagalovok_4 {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 24px;    
+    line-height: 29px;
+    color: #000000;
+    font-family: 'RSB';
+    transition: 400ms;
+}
+.zagalovok_4:hover{
+    color: #B4436C;
+}
+.contact{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    font-family: 'ISB';
+  /*   margin: 100px 0 50px 165px; */
+    
+}
+.last_add{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'RR';
+
+}
+.call{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'RR';
+
+}
+.email{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'RR';
+
+}
+.main_box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main_box_left{
+display: flex;
+
+}
+.main_box_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.naruto{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    font-family: 'RM';
+
+}
+.footer{
+    background: #3E8989;
+    margin-top: 104px;
+}   
+.promise_last{
+    display: flex;
+    gap: 30px;
+    padding: 40px 0 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: 'RR';
+
+}
+.extra_info{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 59px;
+}
+
+
+

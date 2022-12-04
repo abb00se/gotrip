@@ -1,0 +1,61 @@
+@media(max-width:1000px){
+    .headr__nav__content{
+        flex-direction: column;
+        row-gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-form{
+        display: none;  
+    }
+    .main_flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .zagolovok{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .paragraf{
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .main_clothes{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .main_box{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .paragraph{
+        text-align: center;
+        max-width: 400px;
+    }
+    .zagolovok_2{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .contact{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .last_add {
+        text-align: center;
+    }
+    .zagolovok_2{
+        margin-top: 50px;
+    }
+}
